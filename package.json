@@ -1,6 +1,6 @@
 {
-  "name": "ecom-fusion-api",
-  "version": "0.1.0",
+  "name": "express-javascript-starter",
+  "version": "0.1.1",
   "description": "A REST API built for EcomFusion Platform.",
   "repository": {
     "type": "git"
@@ -8,9 +8,17 @@
   "scripts": {
     "test": "jasmine",
     "start": "node public/index.js",
-    "watch": "nodemon public/index.js"
+    "watch": "nodemon public/index.js",
+    "seerjs": "node node_modules/@1450factory/seerjs",
+    "seerjs:help": "node node_modules/@1450factory/seerjs help",
+    "seerjs:new": "node node_modules/@1450factory/seerjs new",
+    "seerjs:make:model": "node node_modules/@1450factory/seerjs make:model",
+    "seerjs:make:controller": "node node_modules/@1450factory/seerjs make:controller",
+    "seerjs:make:route": "node node_modules/@1450factory/seerjs make:route",
+    "seerjs:make:crud": "node node_modules/@1450factory/seerjs make:crud"
   },
   "dependencies": {
+    "@1450factory/seerjs": "^0.1.1",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.2",
     "compression": "^1.7.2",
